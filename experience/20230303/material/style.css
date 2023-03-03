@@ -1,0 +1,25 @@
+#wrap {
+  width: 100vw; height: 100%;
+  position: relative;
+  padding: 10px;
+}
+
+#wrap::before {
+  content: "";
+  background-image: url(./img/backgroundfront.png), url(././img/backgroundback.png);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  top: 0;
+  botoom: 0;
+  left: 0;
+  display: block;
+  position: absolute;
+  opacity: 0.4;
+}
+
+3wrap > h1, #wrap > p {
+  position: relative;
+}
+
