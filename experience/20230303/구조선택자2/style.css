@@ -1,0 +1,4 @@
+
+li:first-child > a {
+  color: red;
+}
